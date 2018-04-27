@@ -1,0 +1,24 @@
+<!doctype HTML>
+<head>
+	<script src="calculatrice.js"></script>
+	<meta charset="utf-8"/>
+	<body>
+		<h1>CALCULATRICE</h1>
+		<p>
+			Premier nombre: <input type="text" id= "premierNb" name="premierNb"> 
+		</p>
+		<p>
+			+ <input type="radio" id="r1" name="r"/>
+			- <input type="radio" id="r2" name="r"/>
+			* <input type="radio" id="r3" name="r"/>
+			/ <input type="radio" id="r4" name="r"/>
+		</p>
+		<p>Second nombre: <input type="text" id= "secondNb" name="secondNb"></p>
+		<p>
+		<input type="submit" onclick="calculer()" id="valider" name="valider"value="valider"/>
+	</p>
+	<h2>Résultat</h2>
+	<div id="afficher"></div>
+
+	</body> 
+</head>
